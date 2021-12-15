@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 利用sin,cos函数画圆
+# 利用fill()函数填充图形区域
 a_x = np.arange(0, 2 * np.pi, 0.01)
 a = 1 + 1 * np.cos(a_x)
 b = 1 + 1 * np.sin(a_x)
